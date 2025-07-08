@@ -1,0 +1,24 @@
+# Общие для всех модулей исключения:
+
+### Gradle ###
+.gradle
+build/
+out/
+!gradle/wrapper/gradle-wrapper.jar
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.ipr
+*.iws
+
+### Java ###
+*.class
+*.log
+*.jar
+*.war
+*.ear
+
+### Системные файлы ###
+.DS_Store
+Thumbs.db
