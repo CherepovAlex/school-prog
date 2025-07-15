@@ -1,20 +1,19 @@
 plugins {
     application
-    id("java")
+    java
 }
 
 group = "inno.code"
 version = "1.0-SNAPSHOT"
 
+application {
+    mainClass.set("webinar6.exercise1")
+}
+
+tasks.withType<JavaExec> {
+    standardInput = System.`in`
+}
+
 repositories {
     mavenCentral()
-}
-
-dependencies {
-    testImplementation(platform("org.junit:junit-bom:5.10.0"))
-    testImplementation("org.junit.jupiter:junit-jupiter")
-}
-
-tasks.test {
-    useJUnitPlatform()
 }
