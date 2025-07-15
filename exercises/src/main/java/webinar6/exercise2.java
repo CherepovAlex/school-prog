@@ -16,7 +16,6 @@ public class exercise2 {
         System.out.println(decideWinner(vChoice, pChoice));
 
     }
-
     public static String decideWinner(int vChoice, int pChoice) {
         if (vChoice == pChoice) {
             return "Ничья";
