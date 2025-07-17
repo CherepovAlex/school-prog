@@ -1,14 +1,12 @@
 plugins {
-    application
     java
+    application
 }
 
 group = "inno.code"
 version = "1.0-SNAPSHOT"
 
-application {
-    mainClass.set("webinar6.exercise1")
-}
+application { mainClass.set("webinar7.App") }
 
 tasks.withType<JavaExec> {
     standardInput = System.`in`
@@ -16,4 +14,8 @@ tasks.withType<JavaExec> {
 
 repositories {
     mavenCentral()
+}
+
+dependencies {
+    implementation("net.datafaker:datafaker:2.0.2")
 }
