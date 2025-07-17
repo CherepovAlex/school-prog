@@ -12,3 +12,22 @@
    Телевизор.
 + 6. Дополнительно. Задавать параметры класса Телевизор с клавиатуры
    или случайным числом
+
+### Результат в консоли Intellij Idea
+```bash
+8:57:36 PM: Executing 'run'…
+
+> Task :compileJava UP-TO-DATE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+
+> Task :run
+Введите диагональ и марку телевизора через пробел, например, "52 Sony":
+34 Sony
+Вы добавили телевизор марки Sony c диагональю 34"
+Телевизор, сгенерированный случайным образом: Sony 102"
+
+BUILD SUCCESSFUL in 14s
+2 actionable tasks: 1 executed, 1 up-to-date
+8:57:50 PM: Execution finished 'run'.
+```
