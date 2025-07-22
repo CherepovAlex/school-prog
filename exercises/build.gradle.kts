@@ -6,7 +6,7 @@ plugins {
 group = "inno.code"
 version = "1.0-SNAPSHOT"
 
-application { mainClass.set("webinar7.App") }
+application { mainClass.set("webinar8.Zadacha3") }
 
 tasks.withType<JavaExec> {
     standardInput = System.`in`
