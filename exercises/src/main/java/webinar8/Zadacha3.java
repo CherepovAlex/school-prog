@@ -17,8 +17,7 @@ public class Zadacha3 {
         System.out.print("Введите два слова через пробел: ");
         String input = scanner.nextLine();
         String[] words = input.split(" ");
-        System.out.println(sortWord(words[0]) + " " + sortWord(words[1]));
-
+        System.out.println("Вывод новой строки: "+ sortWord(words[0]) + " " + sortWord(words[1]));
     }
 
     public static String generateWord() {
