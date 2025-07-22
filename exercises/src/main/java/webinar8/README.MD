@@ -14,7 +14,7 @@
 буквы, с учетом замкнутости клавиатуры.
 
 8:10:26PM: Executing 'run'…
-
+```bash
 > Task :compileJava
 > Task :processResources NO-SOURCE
 > Task :classes
@@ -25,7 +25,7 @@
 BUILD SUCCESSFUL in 8s
 2 actionable tasks: 2 executed
 8:10:34PM: Execution finished 'run'.
-
+```
    Задача 2. 
     Задана последовательность, состоящая только из символов ‘>’,
 ‘<’ и ‘-‘. Требуется найти количество стрел, которые спрятаны в этой
@@ -35,7 +35,7 @@ BUILD SUCCESSFUL in 8s
 106 символов.
     Выходные данные: в единственную строку выходного потока нужно
 вывести искомое количество стрелок.
-
+```bash
 8:10:05PM: Executing 'run'…
 
 > Task :compileJava UP-TO-DATE
@@ -49,7 +49,7 @@ BUILD SUCCESSFUL in 8s
 BUILD SUCCESSFUL in 84ms
 2 actionable tasks: 1 executed, 1 up-to-date
 8:10:06PM: Execution finished 'run'.
-
+```
     Задача 3*. 
     Задана строка, состоящая из букв английского алфавита,
 разделенных одним пробелом. Необходимо каждую последовательность
@@ -60,7 +60,7 @@ BUILD SUCCESSFUL in 84ms
 регистре.
 
 8:00:01PM: Executing 'run'…
-
+```bash
 > Task :compileJava
 > Task :processResources NO-SOURCE
 > Task :classes
@@ -74,3 +74,4 @@ BUILD SUCCESSFUL in 84ms
 BUILD SUCCESSFUL in 11s
 2 actionable tasks: 2 executed
 8:00:12PM: Execution finished 'run'.
+```
