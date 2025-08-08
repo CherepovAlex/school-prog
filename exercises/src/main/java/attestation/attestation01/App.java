@@ -8,6 +8,7 @@ public class App {
         Scanner scanner = new Scanner(System.in);
 
         Person[] persons = InputUtils.inputPersons(scanner);
+
         if (persons == null) {
             System.out.println("Завершение работы программы");
             scanner.close();
@@ -15,7 +16,9 @@ public class App {
         }
 
         Product[] products = InputUtils.inputGoods(scanner);
+
         processBuys(scanner, persons, products);
+
         PrintUtils.printBuyers(persons);
 
         scanner.close();

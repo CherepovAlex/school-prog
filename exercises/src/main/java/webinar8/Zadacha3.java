@@ -42,3 +42,35 @@ public class Zadacha3 {
         return new String(w);
     }
 }
+
+//class SortWords {
+//    public static void main(String[] args) {
+//        Scanner scanner= new Scanner(System.in);
+//        System.out.println("Введите два слова через пробел:");
+//        String line=scanner.nextLine();
+//        System.out.println("Введенная строка: "+line);
+//        String lowerLine=line.toLowerCase();
+//        System.out.println("Нижний регистр: "+lowerLine);
+//        String[] words=lowerLine.split(" ");
+//        if(words.length!=2){
+//            System.out.println("Ошибка, требуется ввести ровно два слова");
+//            scanner.close();
+//            return;
+//        }
+//        StringBuilder result= new StringBuilder();
+//        for (int i=0;i< words.length;i++){
+//            String word=words[i];
+//            System.out.println("Текущее слово перед сортировкой: "+word);
+//            char[] chars=word.toCharArray();
+//            Arrays.sort(chars);
+//            String sortedWord=new String(chars);
+//            System.out.println("Отсортированное слово: "+sortedWord);
+//            result.append(sortedWord);
+//            if(i<words.length-1) {
+//                result.append(" ");
+//            }
+//        }
+//        System.out.println("Результат: "+result.toString());
+//        scanner.close();
+//    }
+//}
