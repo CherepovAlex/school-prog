@@ -6,7 +6,7 @@ plugins {
 group = "inno.code"
 version = "1.0-SNAPSHOT"
 
-application { mainClass.set("homeworks.homework06.App") }
+application { mainClass.set("homeworks.homework07.Task3.Task3") }
 
 tasks.withType<JavaExec> {
     standardInput = System.`in`
