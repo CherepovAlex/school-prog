@@ -24,6 +24,7 @@ public class Main {
         // 1. Реализовать ввод и вывод программы в файл *.txt
         // 2. Вынести методы работы с автомобилем в папку repository интерфейс
         //CarsRepository и его реализацию CarsRepositoryImpl.
+        System.out.println("Чтение файла: " + INPUT);
         CarsRepository carsRepository = new CarsRepositoryImpl();
         List<Car> loadCarList = carsRepository.loadCarsFromFile(INPUT);
         if (loadCarList.isEmpty()) {
