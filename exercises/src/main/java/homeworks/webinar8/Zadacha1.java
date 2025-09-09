@@ -1,4 +1,4 @@
-package webinar8;
+package homeworks.webinar8;
 
 import java.util.Scanner;
 

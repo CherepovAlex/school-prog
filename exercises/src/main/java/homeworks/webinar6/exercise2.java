@@ -1,4 +1,4 @@
-package webinar6;
+package homeworks.webinar6;
 
 import java.util.Random;
 

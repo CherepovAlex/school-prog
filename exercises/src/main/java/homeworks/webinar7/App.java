@@ -1,4 +1,4 @@
-package webinar7;
+package homeworks.webinar7;
 
 import net.datafaker.Faker;
 import java.util.Scanner;
