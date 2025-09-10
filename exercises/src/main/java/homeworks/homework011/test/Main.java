@@ -99,6 +99,7 @@ public class Main {
     public static List<String> carUniqueModel(List<Car> carList) {
         return carList.stream()
                 .filter(x -> (x.getCarCost() >= n) && (x.getCarCost() <= m))
+                .distinct()
                 .map(Car::getCarModel)
                 .toList();
     }

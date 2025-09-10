@@ -69,6 +69,7 @@ public class CarsRepositoryImpl implements CarsRepository {
     public List<String> carUniqueModel(List<Car> carList, long n, long m) {
         return carList.stream()
                 .filter(x -> (x.getCarCost() >= n) && (x.getCarCost() <= m))
+                .distinct()
                 .map(Car::getCarModel)
                 .toList();
     }
