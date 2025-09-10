@@ -113,7 +113,7 @@ public class Main {
 
     public static double averagePriceModel(List<Car> carList, String modelToFind) {
         return carList.stream()
-                .filter(x -> x.getCarModel().equals(modelToFind))
+                .filter(x -> x.getCarModel().equalsIgnoreCase(modelToFind))
                 .collect(Collectors.averagingDouble(Car::getCarCost));
     }
 }
