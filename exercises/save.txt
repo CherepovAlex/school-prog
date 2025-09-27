@@ -1,0 +1,17 @@
+player;Герой;43;5;40
+inventory;Potion:Зелье здоровья,Weapon:Двуручный меч
+current_room;Грот
+room;Площадь;Площадь: Каменная площадь с фонтаном.
+Выходы: north
+room_exits;Площадь;north:Лес
+room;Лес;Лес: Шелест листвы и птичий щебет.
+Предметы: Зелье здоровья
+Выходы: east, south
+room_items;Лес;Potion:Зелье здоровья
+room_exits;Лес;east:Пещера,south:Площадь
+room;Пещера;Пещера: Темно и сыро.
+Выходы: north, west
+room_exits;Пещера;north:Грот,west:Лес
+room;Грот;Грот: Комната с сундуком с вещами
+Выходы: south
+room_exits;Грот;south:Пещера
